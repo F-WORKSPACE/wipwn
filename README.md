@@ -29,7 +29,7 @@ pkg update && pkg upgrade -y
 pkg install root-repo -y
 pkg install git python wpa-supplicant pixiewps iw openssl -y
 pkg install tsu -y || pkg install sudo -y
-git clone https://github.com/anbuinfosec/wipwn
+git clone https://gitlab.com/anbuinfosec/wipwn
 cd wipwn
 chmod +x main.py
 ```
